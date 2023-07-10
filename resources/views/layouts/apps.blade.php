@@ -14,6 +14,7 @@
         <x-top />
         <x-navbar />
         @yield('content')
+        <x-blogs-list />
         <x-footer />
     </body>
 </html>
