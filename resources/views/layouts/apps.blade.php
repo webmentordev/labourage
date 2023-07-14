@@ -6,7 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>{{ config('app.name', 'Laravel') }}</title>
-        <link rel="shortcut icon" href="{{ asset('assets/labourage_favicon.png') }}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{ asset('assets/labourage_favicon_1.png') }}" type="image/x-icon">
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>

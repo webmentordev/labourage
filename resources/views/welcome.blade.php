@@ -1,7 +1,9 @@
 @extends('layouts.apps')
 @section('content')
-    <header class="w-full h-[95vh] bg-center bg-cover" style="background-image: url({{ asset('assets/h1_hero.jpg.webp') }})">
-
+    <header class="w-full h-[95vh] bg-center bg-cover flex items-center justify-center" style="background-image: url({{ asset('assets/h1_hero.jpg.webp') }})">
+        <div class="w-full max-w-6xl">
+            <h1 class="text-white text-7xl title font-semibold">Safe & Reliable <span class="text-main title">Load Dispatch</span><br>SERVICE!</h1>
+        </div>
     </header>
     <section class="bg-gray-50">
         <div class="max-w-7xl m-auto grid grid-cols-3 gap-6 py-[70px]">
@@ -41,8 +43,12 @@
                 <div class="w-full group relative border border-dark-light/20 rounded-md p-12 py-[80px] text-center overflow-hidden">
                     <div class="absolute bg-main w-full h-full left-0 top-0 translate-y-[100%] group-hover:translate-y-0 transition-all"></div>
                     <div class="relative z-10">
-                        <img class="m-auto mb-3 group-hover:hidden" width="60" src="https://api.iconify.design/mdi:truck-fast-outline.svg?color=%23F16024" alt="Truck Logo">
-                        <img class="m-auto mb-3 hidden group-hover:block" width="60" src="https://api.iconify.design/mdi:truck-fast-outline.svg?color=%23FFFFFF" alt="Truck Logo">
+                        {{-- <img class="m-auto mb-3 group-hover:hidden" width="60" src="https://api.iconify.design/mdi:truck-fast-outline.svg?color=%23F16024" alt="Truck Logo">
+                        <img class="m-auto mb-3 hidden group-hover:block" width="60" src="https://api.iconify.design/mdi:truck-fast-outline.svg?color=%23FFFFFF" alt="Truck Logo"> --}}
+
+                        <img class="m-auto mb-3 group-hover:hidden" width="120" src="{{ asset('assets/icons/truck_1-1.png') }}" alt="Truck Logo">
+                        <img class="m-auto mb-3 hidden group-hover:block" width="120" src="{{ asset('assets/icons/truck_1.png') }}" alt="Truck Logo">
+
                         <h3 class="text-3xl font-bold text-main-2 mb-6 group-hover:text-white">Dry Van Freight</h3>
                         <p class="text-gray-600 leading-8 group-hover:text-white">Today, reach out if you are looking for professional truck dispatching services that can help you achieve a peace of mind. You've found the right truck dispatching company to manage your dry van freight.</p>
                     </div>
@@ -51,8 +57,13 @@
                 <div class="w-full group relative border border-dark-light/20 rounded-md p-12 py-[80px] text-center overflow-hidden">
                     <div class="absolute bg-main w-full h-full left-0 top-0 translate-y-[100%] group-hover:translate-y-0 transition-all"></div>
                     <div class="relative z-10">
-                        <img class="m-auto mb-3 group-hover:hidden" width="60" src="https://api.iconify.design/mdi:truck-flatbed.svg?color=%23F16024" alt="Truck Logo">
-                        <img class="m-auto mb-3 hidden group-hover:block" width="60" src="https://api.iconify.design/mdi:truck-flatbed.svg?color=%23FFFFFF" alt="Truck Logo">
+                        {{-- <img class="m-auto mb-3 group-hover:hidden" width="60" src="https://api.iconify.design/mdi:truck-flatbed.svg?color=%23F16024" alt="Truck Logo">
+                        <img class="m-auto mb-3 hidden group-hover:block" width="60" src="https://api.iconify.design/mdi:truck-flatbed.svg?color=%23FFFFFF" alt="Truck Logo"> --}}
+
+
+                        <img class="m-auto mb-3 group-hover:hidden" width="120" src="{{ asset('assets/icons/truck_2-2.png') }}" alt="Truck Logo">
+                        <img class="m-auto mb-3 hidden group-hover:block" width="120" src="{{ asset('assets/icons/truck_2.png') }}" alt="Truck Logo">
+
                         <h3 class="text-3xl font-bold text-main-2 mb-6 group-hover:text-white">Flatbed/Stepdeck</h3>
                         <p class="text-gray-600 leading-8 group-hover:text-white">Labourage has you covered if you are looking for professional truck dispatch services for flatbed or conestoga freight. Reach out to our freight dispatchers for reliable management.</p>
                     </div>
@@ -61,8 +72,11 @@
                 <div class="w-full group relative border border-dark-light/20 rounded-md p-12 py-[80px] text-center overflow-hidden">
                     <div class="absolute bg-main w-full h-full left-0 top-0 translate-y-[100%] group-hover:translate-y-0 transition-all"></div>
                     <div class="relative z-10">
-                        <img class="m-auto mb-3 group-hover:hidden" width="60" src="https://api.iconify.design/mdi:truck-snowflake.svg?color=%23F16024" alt="Truck Logo">
-                        <img class="m-auto mb-3 hidden group-hover:block" width="60" src="https://api.iconify.design/mdi:truck-snowflake.svg?color=%23FFFFFF" alt="Truck Logo">
+                        {{-- <img class="m-auto mb-3 group-hover:hidden" width="60" src="https://api.iconify.design/mdi:truck-snowflake.svg?color=%23F16024" alt="Truck Logo">
+                        <img class="m-auto mb-3 hidden group-hover:block" width="60" src="https://api.iconify.design/mdi:truck-snowflake.svg?color=%23FFFFFF" alt="Truck Logo"> --}}
+
+                        <img class="m-auto mb-3 group-hover:hidden" width="120" src="{{ asset('assets/icons/truck_3-3.png') }}" alt="Truck Logo">
+                        <img class="m-auto mb-3 hidden group-hover:block" width="120" src="{{ asset('assets/icons/truck_3.png') }}" alt="Truck Logo">
                         <h3 class="text-3xl font-bold text-main-2 mb-6 group-hover:text-white">Reefer Freight</h3>
                         <p class="text-gray-600 leading-8 group-hover:text-white">Labourage offers expert reefer truck dispatchers to manage your reefer freight effectively. Reach out today to speak with one of our dedicated truck dispatchers and start achieving your goals.</p>
                     </div>
