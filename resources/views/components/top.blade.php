@@ -1,4 +1,4 @@
-<section class="w-full bg-dark border-b border-btm-b">
+<section class="w-full bg-dark-main border-b border-btm-b">
     <div class="max-w-7xl m-auto py-3 px-4 flex justify-between items-center text-dark-light">
         <ul class="flex items-center">
             <li class="mr-6">Phone: +99 (0) 101 0000 888</li>

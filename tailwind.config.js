@@ -19,7 +19,8 @@ export default {
                 "main-2": "#2c234d",
                 "dark": "#0F1521",
                 "dark-light": "#7b8693",
-                "btm-b": "#2d2d2d"
+                "btm-b": "#2d2d2d",
+                "dark-main": "#121212"
             }
         },
     },

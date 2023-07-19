@@ -34,7 +34,7 @@
     </section>
 
     <section class="w-full">
-        <div class="max-w-6xl m-auto py-[70px]">
+        <div class="max-w-6xl m-auto py-[70px] px-4">
             <div class="text-center font-semibold mb-12">
                 <span class="text-main text-lg">Our Services</span>
                 <h2 class="title text-main-2 text-5xl mt-3">What We Can Do For You</h2>

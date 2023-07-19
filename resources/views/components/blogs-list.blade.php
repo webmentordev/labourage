@@ -1,5 +1,5 @@
 <section class="w-full">
-    <div class="max-w-7xl m-auto py-[70px]">
+    <div class="max-w-7xl m-auto py-[70px] px-4">
         <div class="w-full">
             <div class="font-semibold mb-1 text-center">
                 <span class="text-main text-lg">Our Recent News</span>
